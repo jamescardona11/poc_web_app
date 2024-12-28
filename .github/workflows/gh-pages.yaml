@@ -14,4 +14,4 @@ jobs:
       - uses: bluefireteam/flutter-gh-pages@v8
         with:
           baseHref: /poc_web_app/
-          webRenderer: html
+          webRenderer: --no-wasm
